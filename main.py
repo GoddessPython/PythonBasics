@@ -1,15 +1,30 @@
 
 # Regular script syntax - needs print() to see output
+print('Hello World! This is python')
+print('I learned about the print(2 + 2) it will print the answer to the equation')
 print(2 + 2)
+# Variables
+ILearnedeverything = 'I learned about variables'
+print(ILearnedeverything + ' variables and I can use them to store data. I make up the name and then add the value like ILearnedeverything = "I learned about variables"')
+# learn print()
+print('I learned about the different types of arithematic operators are +, -, *, /, **, %')
+print('The order of operations (also called precedence) of Python math operators is similar to that of mathematics. The ** operator is evaluated first; the *, /, //, and % operators are evaluated next, from left to right; and the + and - operators are evaluated last (also from left to right). You can use parentheses to override the usual precedence if you need to. Whitespace in between the operators and values doesn’t matter for Python (except for the indentation at the beginning of the line), but a single space is convention. Enter the following expressions into the interactive shell and see what happens:')
+print (ILearnedeverything + ' Exponents 2 ** 3')
+print (2 ** 3)
+print (ILearnedeverything + ' Modulus remainder 22 % 8')
+print (22 % 8)
+print (ILearnedeverything + ' integer division, it will not show decimals 22 // 8')
+print (22 // 8)
+print (ILearnedeverything + ' Division with decimals 22 / 8')
+print (22 / 8 )
+print (ILearnedeverything + ' Multiplication 3 * 5')
+print (3 * 5)
+print (ILearnedeverything + ' Addition 3 + 5')
+print (3 + 5)
+print (ILearnedeverything + ' Subtraction 3 - 5')
+print (5 - 2)
 
-# Interactive shell would look like this:
-# >>> 2 + 2
-# 4
-Baby = 2
-mom = 4  
-dad = 3
-print (Baby + mom + dad)
-# These are the basics of python.
-#print()
-
-
+print(ILearnedeverything + 'print alice *5 will replicate the string 5 times')
+print('alice'*5)
+print(ILearnedeverything + 'print alice + 5 will concatenate the strings together. they must be in the same type')
+print('alice'+ '5')
